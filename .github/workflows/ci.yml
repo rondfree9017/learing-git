@@ -26,8 +26,7 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build with Gradle
-      run: ./gradlew build
-      run: ls -al
+      run: ./gradlew build && ls -al
       
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v6
