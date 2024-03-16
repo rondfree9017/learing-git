@@ -34,5 +34,5 @@ jobs:
         image: rondfree70/demo-app
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        password: ${{ secrets.DOCKER_HUB_TOKEN }}
          
